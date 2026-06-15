@@ -1,0 +1,46 @@
+# Root dependencies
+/node_modules/
+
+# Laravel
+/backend/vendor/
+/backend/node_modules/
+/backend/storage/framework/cache/data/
+/backend/storage/framework/sessions/
+/backend/storage/framework/testing/
+/backend/storage/framework/views/
+/backend/storage/logs/
+/backend/.env
+/backend/.env.*.local
+/backend/.phpunit.result.cache
+
+# Vue / Node
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Course docs
+*.docx
+
+# Binary
+composer.phar
+
+# Generated
+/backend/storage/api-docs/
+
+# SQLite
+/backend/database/*.sqlite
+/backend/database/*.sqlite-journal
+
+# Logs
+*.log
